@@ -59,7 +59,7 @@ test_activity_4 = create(
     name='activity_4',
     requires=[test_activity_3, test_activity_2],
     tasks=task.SyncTasks(
-    lambda activity, context: print('activity_4')))
+        lambda activity, context: print('activity_4')))
 ```
 
 ### Application architecture
